@@ -42,6 +42,22 @@ body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif
 }
 
+#introduction {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+#introduction h2 {
+  color: #007bff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#introduction p {
+  font-size: 1.1rem;
+  color: #555;
+  font-weight: 400;
+}
+
 /* Featured Resources */
 #featured h2 {
   margin-bottom: 2rem;
