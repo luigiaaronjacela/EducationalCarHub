@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  font-size: 16px; /* Base font size for paragraphs */
+}
+
+/* Navbar styling */
+.navbar {
+  border-bottom: 2px solid #007bff;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: #007bff !important;
+  font-size: 1.5rem; /* Brand name size */
+}
+
+.nav-link {
+  color: #333 !important;
+  font-size: 1rem; /* Nav link size */
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Home Section */
+.carhome{
+  background: url("./backgroundhome.png")
+    center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif
+}
+
+/* Featured Resources */
+#featured h2 {
+  margin-bottom: 2rem;
+  color: #007bff;
+  font-size: 2rem; /* Section heading */
+  font-weight: 600;
+}
+
+#featured img {
+  border-radius: 5px;
+}
+
+#featured h5 {
+  font-weight: 600;
+  font-size: 1.3rem; /* Resource card title */
+}
+
+#featured p {
+  color: #555;
+  font-size: 1rem; /* Resource card description */
+}
+
+#featured a.btn {
+  font-weight: 500;
+}
+
+/* Categories Section */
+#categories-section {
+  background: #e9ecef;
+}
+
+#categories-section h2 {
+  color: #007bff;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#categories .col-md-6 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1rem; /* Category name */
+  font-weight: 500;
+}
+
+#resources {
+  font-size: 1rem;
+}
+
+/* About Section */
+#about h2 {
+  color: #007bff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#mission p, #contact p {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/* Buttons */
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  font-size: 0.9rem; /* Button text */
+  font-weight: 500;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  #featured .row, #categories .row {
+    flex-direction: column;
+  }
+
+  #categories .col-md-6 {
+    width: 100%;
+  }
+}
+
+.homeimage {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
